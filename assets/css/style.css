@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Noto Sans', sans-serif
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +12,7 @@
 body {
     background: #000;
     color: #ff9900;
+    font-family: 'Noto Sans', sans-serif
 }
 
 .navigation {
@@ -22,10 +27,87 @@ body {
 }
 
 .right-box {
-    flex-basis: 80%
+    flex-basis: 80%;
+    position: relative;
 }
 
 .logo {
     width: 200px;
     margin: 2px;
+}
+
+.wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.search-box{
+    display: flex;
+    background: #fff;
+    padding: 10px 2px;
+    border-radius: 40px;
+}
+
+.search-box img{
+    width: 18px;
+    margin: auto 5px;
+}
+
+.search-box input {
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 20vh;
+    background: #000;
+    margin: 30px 0 10px;
+}
+
+.wrapper ul li {
+    list-style: none;
+    margin: 10px 0;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.wrapper ul li a {
+    color: #000;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+nav ul  {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 70px;
+}
+
+nav ul li a {
+    color: #ffc34d;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-right: 795px;
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+.bionic-welcome {
+    position: absolute;
+    bottom: 0
 }
