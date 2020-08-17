@@ -116,3 +116,11 @@ h2 {
     top: 30%;
     right: 84%;
 }
+
+.bionic-arm img{
+    position: absolute;
+    right: 52%;
+    height: 30%;
+    bottom: 10%;
+    left: 11%;
+}
